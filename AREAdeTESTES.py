@@ -1,3 +1,51 @@
+
+
+
+
+'''import os
+#quando voce quiser saber qual o numero de uma determinada posição use o seguinte comando:
+lista = [10, 20, 30, 40, 50]
+
+print("Lista preenchida: ", lista)
+
+print("Acessando o ultimo elemento (-1): ", lista[-1])
+print("Acessando o penultimo elemento (-2): ", lista[-2])
+
+print("Testando o acesso da poisção com o -3: ", lista[-3])
+
+input("Aperte qualquer tecla para limpar: ")
+
+os.system("cls")
+'''
+
+'''#uso dos comandos "append" e "pop"
+#fazendo substituiçoes nos numeros
+lista = [10, 20, 30]
+
+print(lista)
+
+lista [1] = 99
+#lembrando que como a contagem começa em "0" entao o numero colocado 1 sera o segundo na ordem da linha
+print(lista)
+'''
+
+
+
+'''
+#Adicionando numeros e removendo o ultimo numero com comandos
+lista = [10, 20, 30]
+print("Lista original: ", lista)
+
+lista.append(99) #vai ser usado para adicionar o numero na ultima posicao em ordem final
+print("Adicionando o 99:", lista)
+
+aux = lista.pop()
+print("Elemento removido: ", aux)
+
+print("Resultado final: ", lista)
+'''
+
+
 '''mat = []
 
 for i in range(3):
