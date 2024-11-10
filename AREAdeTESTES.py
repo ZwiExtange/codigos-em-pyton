@@ -1,4 +1,4 @@
-mat = []
+'''mat = []
 
 for i in range(3):
     linha = []
@@ -12,8 +12,7 @@ for i in range(3):
     for j in range(3):
         print("O elemento da linha", i, "coluna ", j, "é:", mat[i][j])
 
-
-
+'''
 
 '''#JA NO COMANDO FOR É USADO PARA QUANDO VOCE PRECISA DE ALGO MAIS PRECISO E QUE SE NECESSARIO PRECISE ALTERNAR NUMEROS
 cont = int
