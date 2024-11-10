@@ -1,5 +1,120 @@
+def soma(num1, num2, total):
+    total.append(num1 + num2)
+    
+
+n1 = float(input("Digite o primeiro numero: "))
+n2 = float(input("Digite o segundo numero: "))
+
+resultado = []
+
+soma(n1, n2, resultado)
+
+print("A soma é: ", resultado[0])
+#para alteração de dados mutaveis ou nao mutaveis
 
 
+#novamente este codigo abaixo é um exemplo de codigos mutaveis ou nao mutaveis
+def soma(num1, num2):
+    num1 = num1 + num2
+    return num1
+
+n1 = float(input("Digite o primeiro numero: "))
+n2 = float(input("Digite o segundo numero"))
+
+resultado = soma(n1, n2)
+
+print("A soma é: ", resultado)
+
+
+'''
+#ESCOPOS DA FUNÇÃO
+
+#Função global vs Local
+#FUNÇÃO GLOBAL
+
+raio = 0
+
+def areaTriangulo():
+    return 3.14*raio**2
+
+raio = float(input("Digite o raio do triangulo: "))
+
+area = areaTriangulo()
+
+print("A area do triangulo é: ", area)
+
+
+#Agora a mesma função so que versao LOCAL
+#FUNÇÃO LOCAL
+
+def areaTriangulo(r):
+    return 3.14*r**2
+
+raio = float(input("Digite o raio do triângulo: "))
+
+area =  areaTriangulo(raio)
+
+print("A área do triangulo é: ", area)
+
+'''
+
+
+'''def soma(num1, num2):
+    total = num1 + num2
+    return total
+
+n1 = float(input("Digite o primeiro numero: "))
+n2 = float(input("Digite o segundo numero: "))
+
+resultado = soma(n1, n2)
+
+print("A soma é", resultado)
+'''
+
+
+
+'''
+#uso da função "def"
+def soma():
+    num1 = float(input("Digite o primeiro numero: "))
+    num2 = float(input("Digite o segundo numero: "))
+    total = num1 + num2
+    print("A soma é", total)
+
+soma()
+'''
+
+'''#Agora sobre matrizes
+mat = []
+
+mat.append([1, 2, 3])
+mat.append([4, 5, 6])
+mat.append([7, 8, 9])
+
+print(mat[0][0])
+print(mat[2][2])
+print(mat[0][2])
+print(mat[1][0])
+'''
+
+
+'''#linhas de codigo usadas principalmente para que se possa tornar maisculas e minusculas e ver como ficariam
+#usado os novos codigos "len", ".upper", ".lower"
+nome = input("Digite seu primeiro nome: \n ")
+sobrenome = input("Digite seu sobrenome: \n")
+
+tamanho = len(nome)
+print("O comprimento do nome é: ", tamanho)
+
+nome = nome +""+ sobrenome
+print("Após concectar as strings temos: ", nome)
+
+if sobrenome in nome:
+    print("O sobrenome ", sobrenome, "está contido no nome ", nome, ".")
+
+print("O nome completo minusculo é: ", nome.lower())
+print("O nome completo maiusculo é: ", nome.upper())
+'''
 
 
 '''import os
