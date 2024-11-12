@@ -11,28 +11,27 @@ print("Digite 3 para Sacar: ")
 op = int(input())
 
 if op == 1:
-    
-    print("Seu saldo é: ", saldo_total)
-    
-    print("Deseja realizar outra operação?")
-    print("Digite 10 para voltar ao menu principal")
-    print("Digite 0 para Encerrar Operações")
-    op = int(input())
-    if op == 10:
-        print("Voltar ao menu principal")
-        
-    if op == 0:
-        print("Obrigado por ultilizar nossos Serviços")
-    else:
-        print("operação invalida")
+    valor_do_saldo = saldo_total
+    print("Seu saldo atual é de:")
+    print(valor_do_saldo)
 
+    print("Ecolha uma operação:")
+    print("Digite 9 para voltar ao menu anterior")
+    print("Dgite 0 para ecerrar atendimento")
 
 elif op == 2:
-
-    print("Digite o valor a depositar: " )
-    deposito = int(input("\n"))
-    valor_atual = saldo_total + deposito 
-    print("Seu saldo atual é: ", valor_atual)
+    deposito = int(input("Digite o valor a ser depositado: "))
+    saldo_total = deposito + saldo_total
+    print("Seu saldo atual é:")
+    print(saldo_total)
 
 elif op == 3:
-    saque > saldo_total = print("operação invalida")
+    print("Digite o valor do saque:")
+    saque = int(input())
+    print("voce sacou: ", saque)
+    saldo_total = saldo_total - saque
+    print("Agora seu saldo atual é:")
+    print(saldo_total)
+
+else:
+    print("Operação invalida")

@@ -1,4 +1,35 @@
-def soma(num1, num2, total):
+x = 0
+while x < 5:
+    x += 1
+print(x)
+
+
+
+
+'''x = int(input("Digite o valor:"))
+ 
+for cont in range(1, 6, 1):
+    x = x * 2
+ 
+print(x)
+'''
+
+'''A = input("Digite o valor de A:")
+B = input("Digite o valor de B:")
+C = input("Digite o valor de C:")
+ 
+A = int(A)
+B = int(B)
+C = int(C)
+ 
+C = A + B * B
+ 
+print("Resultado:", C)
+'''
+
+
+
+'''def soma(num1, num2, total):
     total.append(num1 + num2)
     
 
@@ -24,7 +55,7 @@ n2 = float(input("Digite o segundo numero"))
 resultado = soma(n1, n2)
 
 print("A soma é: ", resultado)
-
+'''
 
 '''
 #ESCOPOS DA FUNÇÃO
@@ -190,7 +221,7 @@ for cont in range(11):
 print("Conte até 10 apartir de 1 bilhao")
 for cont in range(1,1000000000,1):
     print(cont)
-#Aqui ele vai contar até 1 bilhao
+#Aqui ele vai   contar até 1 bilhao
 '''
 
 
